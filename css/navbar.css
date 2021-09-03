@@ -1,0 +1,31 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ul li {
+  position: relative;
+  cursor: pointer;
+}
+ul li::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 70%;
+  height: 4px;
+  background: #FFCD05;
+  transform: scaleX(0);
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+ul li:hover::after, ul li.active::after {
+  transform: scaleX(1);
+}
+ul li a {
+  position: relative;
+  display: flex;
+  color: white;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}

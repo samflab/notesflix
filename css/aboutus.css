@@ -1,0 +1,38 @@
+
+#member-name
+{
+    color: #266AB4;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: 'Lato';
+}
+
+#designation
+{
+    color: #266AB4;
+    font-style: 'Lato';
+    font-size: 18px;
+
+}
+#team_bg
+{
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#team-photos
+{
+    margin-left: 1%;
+    margin-right: 1%;
+     
+}
+
+#desc_wholee
+{
+    padding-top: 10%;
+    padding-left: 5.7%;
+    padding-right: 5.7%;
+    
+}

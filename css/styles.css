@@ -1,0 +1,292 @@
+#signup
+{
+    background-color: #266AB4;
+    color: white;
+    border: none;
+    padding: 9px 30px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    display: inline-block;
+    margin-top: 1%;
+    font-family: 'Lato';
+}
+
+.navbar
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+}
+.navbar-right
+{
+    padding-top: 0.8%;    
+}
+
+.nav-link
+{
+    font-family: 'Lato';
+    color: black;
+    text-decoration: none;
+    opacity: 1;
+    font-size: 1.5rem;
+    
+}
+.nav-item
+{
+    padding-right: 2vw;
+}
+
+.nav-item .nav-link:hover
+{
+    color: black;
+    background-color: transparent;
+
+}
+
+i
+{
+    color: black;
+    height: 20px;
+    width: 20px;
+}
+
+#desc
+{ 
+    padding-top: 5%;
+}
+
+
+#tagline
+{
+    font-family: 'Satisfy';
+    font-size: 40px;
+    color: #266AB4;
+}
+#intro
+{
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#desc_whole
+{
+    padding-top: 5%;
+    padding-left: 5.7%;
+    padding-right: 5.7%;
+}
+#home_bg
+{
+    width: 100%;
+    height:93vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#notes_bg
+{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#talk_bg
+{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#live_bg
+{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#desc_wholex
+{
+    padding-top: 5%;
+    padding-left: 5.7%;
+    padding-right: 5.7%;
+    height: 650px;
+}
+
+#desc_wholeb
+{
+    padding-top: 5%;
+    padding-left: 5.7%;
+    padding-right: 5.7%;
+    height: 550px;
+}
+
+
+#notes
+{
+    font-family: 'Lato';
+    color: #266AB4;
+    font-size: 40px;
+    font-weight: 600;
+    text-align-last:right;
+}
+
+#notes_desc
+{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;    
+    text-align:right;
+        
+}
+#text
+{
+    padding-top: 10%;
+}
+
+#live
+{
+    font-family: 'Lato';
+    color: #266AB4;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#live_desc
+{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#talk
+{
+    font-family: 'Lato';
+    color: #266AB4;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+#space
+{
+    margin-right: 25px;
+    
+}
+
+#name
+{
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+#test
+{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#student
+{
+    font-family: 'Lato';
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.company
+{
+    font-family: 'Lato';
+    font-size: 20px;
+    color: black;
+}
+
+#title
+{
+    font-family: 'Lato';
+    font-size: 21px;
+    color: black;
+    font-weight: 600;
+}
+#sub
+{
+    font-family: 'Lato';
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+#column {
+  float: left;
+  width: 20.33%;
+  padding: 10px;
+}
+
+#column1 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+.row:after {
+  display: table;
+  clear: both;
+}
+#title1
+{
+    font-family: 'Lato';
+    font-size: 31px;
+    color: black;
+    font-weight: 600;
+}
+#insta
+{
+    margin-top: 10px;
+    margin-left: 3.5px;
+}
+.btn-vertical-slider{ margin-left:35px; cursor:pointer;}
+a {  cursor:pointer;}
+.carousel.vertical .carousel-inner .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+ .carousel.vertical .next {
+  top: 100%;
+}
+
+ .carousel.vertical .prev {
+  top: -100%;
+}
+
+ .carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+ .carousel.vertical .active.left {
+  top: -100%;
+}
+
+ .carousel.vertical .active.right {
+  top: 100%;
+}
+
+ .carousel.vertical .item {
+    left: 0;
+}
+

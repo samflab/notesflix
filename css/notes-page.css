@@ -1,0 +1,20 @@
+#download-button
+{
+     
+  text-align: center;
+  align-self: baseline;
+  padding-top: .75%;
+  font-family: 'Lato';
+  box-shadow: 0px 4px 6px #00000029;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 7%;
+  width:170px;
+}
+
+@media screen and (min-width: 280px) {
+  #folder-margin
+  {
+      margin-bottom: -200px;
+  }
+}

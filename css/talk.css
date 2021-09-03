@@ -1,0 +1,58 @@
+#speaker-intro
+{
+    font-family: 'Lato';
+    font-size: 18px;
+}
+
+#names
+{
+    box-shadow: 0px 3px 10px 3px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    border: 0px;
+    height: 40px;
+    width: 80%;
+    font-size: 15px;
+    padding: 1.5%;
+    
+}
+
+#message
+{
+    
+    box-shadow: 0px 3px 10px 3px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    border: 0px; 
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    padding: 1.5%;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+#speaker-bg
+{
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+textarea
+{
+    box-shadow: 0px 3px 10px 3px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    border: 0px; 
+    padding: 1.5%;
+    font-size:15px;
+    
+}
+
+textarea:focus
+{
+    outline: none;
+}

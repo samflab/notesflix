@@ -1,0 +1,78 @@
+#sign_up
+{
+    font-family: 'Lato';
+    font-size: 27px;
+    color: black;
+    font-weight: 500;
+}
+#line_one
+{
+    display: inline-block;
+    margin-right: 3%;
+}
+
+div label
+{
+    display: block;
+}
+
+#create
+{
+    background-color: #266AB4;
+    color: white;
+    font-family: 'Lato';
+    font-size: 18px;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    display: inline-block;
+    margin-top: 1%;
+    font-family: 'Lato';
+}
+
+#login_button
+{
+    background-color: #266AB4;
+    color: white;
+    font-family: 'Lato';
+    font-size: 15px;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    display: inline-block;
+    margin-top: 1%;
+    font-family: 'Lato';
+}
+
+label
+{
+    font-family: 'Lato';
+    font-size: 15px;
+}
+
+.modal-content
+{
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+}
+#login
+{
+    padding-left: 50%;
+    padding-top: 3%;
+}

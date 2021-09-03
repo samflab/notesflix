@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer
+{
+    background-color: #266AB4;
+    color: white;
+    line-height: 1.5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato';
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.ft-title
+{
+    font-size: 2.5rem;
+    padding-bottom: 0.625rem;
+    font-weight: 600;
+}
+
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+}
+@media only screen and (max-width: 500px) {
+    footer
+    {
+        margin-top:30%;
+    }
+}
+@media only screen and (min-width: 60rem)
+{
+    .ft-social
+    {
+         margin-left: 34%;
+    } 
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-social
+    {
+         margin-left: 48%;
+    }
+}
+.ft-main-item {
+  min-width: 12.5rem;
+  padding-left: 3%;
+}
+
+.ft-main-item li
+{
+    font-size: 2.1rem;
+}
+
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+  margin-top: 11px;
+  text-align-last: right;
+}
+
+.ft-social-list {
+  display: flex;
+  justify-content:flex-end;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+}
+
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+i
+{
+    color: white;   
+}
+
+#first
+{
+    padding-left: 10%;
+}

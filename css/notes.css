@@ -1,0 +1,90 @@
+#heading
+{
+    font-size: 30px;
+    color: #266AB4;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+.half-highlight
+{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  background-image: linear-gradient(to right, transparent 50%, #FFCD05 50%);
+  background-origin: 0;
+  background-size: 200% 50%;
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  transition: background-position 0.5s;
+  background-position: -100% 100%;
+}
+
+b
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#about
+{
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.right-addon .glyphicon { 
+   right:3.5%; 
+    top: 5px; 
+    color: darkgray;
+}
+
+/* add padding  */
+.right-addon input {
+    padding-right: 30px;
+}
+
+#search
+{
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+hr
+{
+    border: none;
+    height: 1px;
+    color: #D8D7E1; 
+    background-color:#D8D7E1;
+}
+
+
+h4
+{
+  font-family: 'Lato';
+  font-weight: 600;
+}
+
+#folder
+{
+    margin: 10px auto 20px;
+    display: block;
+}
+
+@media only screen and (max-width: 580px) {
+  #folder-margin {
+    margin-bottom: -100px;
+  }
+}
